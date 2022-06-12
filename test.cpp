@@ -13,7 +13,7 @@ int main(){
     
     vector<Point> control_points = { p0, p1, p2, p3, p4, p5 };
     vector<Point> path;
-    path = generateBsplinePath(control_points, 1);
+    path = generateBsplinePath(control_points, 0);
     
     const string file_name_ = "b.txt";
     const string file_path_ = "/home/ros/star/B_spline_curve/";

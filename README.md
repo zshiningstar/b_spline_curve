@@ -8,4 +8,5 @@ g++ test.cpp
 ```
 python plot.py b.txt
 ```
-![插值结果](result.png)
+![均匀B样条插值结果](result1.png)
+![准均匀B样条插值结果](result2.png)
